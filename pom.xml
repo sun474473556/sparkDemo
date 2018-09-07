@@ -45,6 +45,12 @@
             <artifactId>spark-mllib_${scala.version}</artifactId>
             <version>${spark.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
+            <version>2.3.1</version>
+            <scope>provided</scope>
+        </dependency>
 
     </dependencies>
 

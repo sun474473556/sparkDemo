@@ -1,7 +1,7 @@
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.kafka.KafkaUtils
-import org.apache.spark.streaming.{Minutes, StreamingContext}
-import org.scalatest.time.Seconds
+import org.apache.spark.streaming.{Minutes, Seconds, StreamingContext}
+
 
 object KafkaWordCount {
   def main(args: Array[String]): Unit = {
